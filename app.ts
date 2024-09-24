@@ -5,7 +5,6 @@ const fetchPokemon = async () => {
   // Generate two random Pokémon IDs
   const randomPokemon1: number = Math.floor(Math.random() * 100) + 1;
   const randomPokemon2: number = Math.floor(Math.random() * 100) + 1;
-
   // Fetch data for the first Pokémon
   const res1 = await fetch(
     `https://pokeapi.co/api/v2/pokemon/${randomPokemon1}`
@@ -39,6 +38,7 @@ const fetchPokemon = async () => {
   console.log(`  Attack: ${pokemon1.stats[1].base_stat}`);
 
   // Display Pokémon 2 details
+  console.log("--------------------");
   console.log("--------------------");
   console.log("-----POKEMON 2------");
   console.log("--------------------");
