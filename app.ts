@@ -28,9 +28,9 @@ const fetchPokemon = async () => {
   }
 
   // Display Pokémon 1 details
-  console.log("--------------------");
-  console.log("-----POKEMON 1------");
-  console.log("--------------------");
+  console.log("|--------------------|");
+  console.log("|-----POKEMON 1------|");
+  console.log("|--------------------|");
   console.log(`ID:    ${pokemon1.id}`);
   console.log(`Name:  ${pokemon1.name}`);
   console.log("Stats ");
@@ -38,10 +38,10 @@ const fetchPokemon = async () => {
   console.log(`  Attack: ${pokemon1.stats[1].base_stat}`);
 
   // Display Pokémon 2 details
-  console.log("--------------------");
-  console.log("--------------------");
-  console.log("-----POKEMON 2------");
-  console.log("--------------------");
+  console.log("                    ");
+  console.log("|--------------------|");
+  console.log("|-----POKEMON 2------|");
+  console.log("|--------------------|");
   console.log(`ID:    ${pokemon2.id}`);
   console.log(`Name:  ${pokemon2.name}`);
   console.log("Stats ");
